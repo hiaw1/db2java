@@ -17,7 +17,7 @@ import com.db.tools2.vo.ProcessResultVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç07:59:54
+ @createTime 2012-9-7 ä¸‹åˆ07:59:54
  **/
 
 public class FactoryCase {
@@ -57,7 +57,7 @@ public class FactoryCase {
 	
 	/**
 	 * 
-	 * ²âÊÔµ¥Êı¾İ¿âÀïµÄÒ»¸ö±íµÄÇé¿ö
+	 * æµ‹è¯•å•æ•°æ®åº“é‡Œçš„ä¸€ä¸ªè¡¨çš„æƒ…å†µ
 	 * @throws DBToolsBuilderException
 	 * @throws DBSQLException 
 	 * @throws JavaFieldException 
@@ -80,7 +80,7 @@ public class FactoryCase {
 	
 	/**
 	 * 
-	 * ²âÊÔµ¥Êı¾İ¿âÀïµÄÒ»¸ö±íµÄÇé¿ö
+	 * æµ‹è¯•å•æ•°æ®åº“é‡Œçš„ä¸€ä¸ªè¡¨çš„æƒ…å†µ
 	 * @throws DBToolsBuilderException
 	 * @throws DBSQLException 
 	 * @throws JavaFieldException 
@@ -104,23 +104,23 @@ public class FactoryCase {
 		System.out.println(processResultVO.getJavaSrc());
 		System.out.println("======================JAVA SRC END====================\r\n");
 		
-		System.out.println("======================INSERTÓï¾ä====================");
+		System.out.println("======================INSERTè¯­å¥====================");
 		System.out.println(processResultVO.getInsertSQL());
-		System.out.println("======================INSERTÓï¾ä½áÊø====================\r\n");
-		System.out.println("======================UPDATEÓï¾ä====================");
+		System.out.println("======================INSERTè¯­å¥ç»“æŸ====================\r\n");
+		System.out.println("======================UPDATEè¯­å¥====================");
 		System.out.println(processResultVO.getUpdateSQL());
-		System.out.println("======================UPDATEÓï¾ä½áÊø====================\r\n");
-		System.out.println("======================DELETEÓï¾ä====================");
+		System.out.println("======================UPDATEè¯­å¥ç»“æŸ====================\r\n");
+		System.out.println("======================DELETEè¯­å¥====================");
 		System.out.println(processResultVO.getDeleteSQL());
-		System.out.println("======================DELETEÓï¾ä½áÊø====================\r\n");
-		System.out.println("======================SELECTÓï¾ä====================");
+		System.out.println("======================DELETEè¯­å¥ç»“æŸ====================\r\n");
+		System.out.println("======================SELECTè¯­å¥====================");
 		System.out.println(processResultVO.getQuerySQL());
-		System.out.println("======================SELECTÓï¾ä½áÊø====================\r\n");
+		System.out.println("======================SELECTè¯­å¥ç»“æŸ====================\r\n");
 	}
 	
 	/**
 	 * 
-	 * ½«¶ÔÏóĞ´Èëµ½·½·¨ÖĞ
+	 * å°†å¯¹è±¡å†™å…¥åˆ°æ–¹æ³•ä¸­
 	 * @param processResultVO
 	 * @param filePath
 	 */
@@ -134,18 +134,18 @@ public class FactoryCase {
 		FileUtils.writeToFile(processResultVO.getJavaSrc(), javaFile);
 		StringBuilder sqlContent = new StringBuilder();
 		
-		sqlContent.append("\r\n======================INSERTÓï¾ä====================\r\n");
+		sqlContent.append("\r\n======================INSERTè¯­å¥====================\r\n");
 		sqlContent.append(processResultVO.getInsertSQL());
-		sqlContent.append("\r\n======================INSERTÓï¾ä½áÊø====================\r\n");
-		sqlContent.append("\r\n======================UPDATEÓï¾ä====================\r\n");
+		sqlContent.append("\r\n======================INSERTè¯­å¥ç»“æŸ====================\r\n");
+		sqlContent.append("\r\n======================UPDATEè¯­å¥====================\r\n");
 		sqlContent.append(processResultVO.getUpdateSQL());
-		sqlContent.append("\r\n======================UPDATEÓï¾ä½áÊø====================\r\n");
-		sqlContent.append("\r\n======================DELETEÓï¾ä====================\r\n");
+		sqlContent.append("\r\n======================UPDATEè¯­å¥ç»“æŸ====================\r\n");
+		sqlContent.append("\r\n======================DELETEè¯­å¥====================\r\n");
 		sqlContent.append(processResultVO.getDeleteSQL());
-		sqlContent.append("\r\n======================DELETEÓï¾ä½áÊø====================\r\n");
-		sqlContent.append("\r\n======================SELECTÓï¾ä====================\r\n");
+		sqlContent.append("\r\n======================DELETEè¯­å¥ç»“æŸ====================\r\n");
+		sqlContent.append("\r\n======================SELECTè¯­å¥====================\r\n");
 		sqlContent.append(processResultVO.getQuerySQL());
-		sqlContent.append("\r\n======================SELECTÓï¾ä½áÊø====================\r\n");
+		sqlContent.append("\r\n======================SELECTè¯­å¥ç»“æŸ====================\r\n");
 		FileUtils.writeToFile(sqlContent.toString(), sqlFile);
 		
 		

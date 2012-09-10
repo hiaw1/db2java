@@ -1,29 +1,29 @@
 
-ÒÑ¾­Íê³ÉµÄÄÚÈİ£º
-×Ô¶¯»¯¹¹½¨´ÓDBµ½JAVAÀàºÍ¼òµ¥µÄSQLÓï¾ä¡£
-ÕûÌ×ÏµÍ³Éè¼ÆµÄºÃ´¦ÔÚÓÚ£¬ÍêÈ«½âÅº£¬²¢ÇÒÔÚ²»ĞŞ¸ÄÔ­´úÂëµÄ»ù´¡ÉÏÖ±½Ó¿ÉÒÔÍê³ÉĞÂµÄ´¦ÀíÇé¿öµÄÔö¼Ó:
+å·²ç»å®Œæˆçš„å†…å®¹ï¼š
+è‡ªåŠ¨åŒ–æ„å»ºä»DBåˆ°JAVAç±»å’Œç®€å•çš„SQLè¯­å¥ã€‚
+æ•´å¥—ç³»ç»Ÿè®¾è®¡çš„å¥½å¤„åœ¨äºï¼Œå®Œå…¨è§£è—•ï¼Œå¹¶ä¸”åœ¨ä¸ä¿®æ”¹åŸä»£ç çš„åŸºç¡€ä¸Šç›´æ¥å¯ä»¥å®Œæˆæ–°çš„å¤„ç†æƒ…å†µçš„å¢åŠ :
 
-Èç¹ûĞèÒªĞÂµÄÊı¾İ¿âµ½JAVA×Ö¶ÎµÄ¶ÔÓ¦¹ØÏµ£º
-ÔÚÊµ¼ÊÊ¹ÓÃÇ°µ÷ÓÃ
+å¦‚æœéœ€è¦æ–°çš„æ•°æ®åº“åˆ°JAVAå­—æ®µçš„å¯¹åº”å…³ç³»ï¼š
+åœ¨å®é™…ä½¿ç”¨å‰è°ƒç”¨
 ColumnType2JAVATypeUtils.registerCorresponding(String dbFieldType, String javaFieldType);
 
 
-Èç¹ûĞèÒªĞÂµÄÊı¾İ¿âµ½JAVA×Ö¶ÎµÄÉú³É¹æÔò£º
-ĞÂ½¨Ò»¸ö¼Ì³Ğ²¢ÊµÏÖBaseFieldProcessor³¬ÀàµÄÀà
-È»ºóÔÚÊµ¼ÊÊ¹ÓÃµ÷ÓÃ
+å¦‚æœéœ€è¦æ–°çš„æ•°æ®åº“åˆ°JAVAå­—æ®µçš„ç”Ÿæˆè§„åˆ™ï¼š
+æ–°å»ºä¸€ä¸ªç»§æ‰¿å¹¶å®ç°BaseFieldProcessorè¶…ç±»çš„ç±»
+ç„¶ååœ¨å®é™…ä½¿ç”¨è°ƒç”¨
 JAVAFieldProcessorManager.registerFieldProcessor(String name, BaseFieldProcessor fieldProcessor);
 ToolsHelper.setJavaFieldregulations(String javaFieldregulations);
 
-Èç¹ûĞèÒªÔö¼ÓÒ»Ì×ĞÂµÄDBÊµÏÖ£¬ÔÚµ÷ÓÃÖ®Ç°Íê³ÉÈçÏÂ²Ù×÷£º
-¶¨ÒåËÄ¸öÊµÏÖÁËISQLProcessµÄÀà
-È»ºóÔÚÊµ¼ÊÊ¹ÓÃÇ°µ÷ÓÃ
+å¦‚æœéœ€è¦å¢åŠ ä¸€å¥—æ–°çš„DBå®ç°ï¼Œåœ¨è°ƒç”¨ä¹‹å‰å®Œæˆå¦‚ä¸‹æ“ä½œï¼š
+å®šä¹‰å››ä¸ªå®ç°äº†ISQLProcessçš„ç±»
+ç„¶ååœ¨å®é™…ä½¿ç”¨å‰è°ƒç”¨
 DeleteProcessorManager.registerDeleteProcessor(String name, ISQLProcess deleteProcessor);
 InsertProcessorManager.registerInsertProcessor(String name, ISQLProcess insertProcessor);
 UpdateProcessorManager.registerUpdateProcessor(String name, ISQLProcess updateProcessor);
 SelectProcessorManager.registerSelectProcessor(String name, ISQLProcess selectProcessor);
 ToolsHelper.setDbType(String dbType);
-ÕâÀïµÄnameÒªÓëdbType+":"+SQLÖÖÀà±£³ÖÒ»ÖÂ.
-ÈçÊÇDB2 + IbatisµÄ»°£º
+è¿™é‡Œçš„nameè¦ä¸dbType+":"+SQLç§ç±»ä¿æŒä¸€è‡´.
+å¦‚æ˜¯DB2 + Ibatisçš„è¯ï¼š
 DeleteProcessorManager.registerDeleteProcessor("DB2:Ibatis", deleteProcessor);
 InsertProcessorManager.registerInsertProcessor("DB2:Ibatis", insertProcessor);
 UpdateProcessorManager.registerUpdateProcessor("DB2:Ibatis", updateProcessor);
@@ -31,16 +31,16 @@ SelectProcessorManager.registerSelectProcessor("DB2:Ibatis", selectProcessor);
 ToolsHelper.setDbType("DB2");
 ToolsHelper.setSqlType("Ibatis");
 
-DBToolsFactoryÊÇÒ»¸ö¹¤³§£¬DBToolsBuilderÊÇ¹¤ÈË£¬tableÊÇÔ­ÁÏ¡£
-¹¤ÈËÔÚÕû¸ö²Ù×÷¹ı³ÌÖĞĞèÒªBaseDataProcess´ÓÔ­ÁÏÖĞÌáÈ¡£¬È»ºó¾­¹ı
+DBToolsFactoryæ˜¯ä¸€ä¸ªå·¥å‚ï¼ŒDBToolsBuilderæ˜¯å·¥äººï¼Œtableæ˜¯åŸæ–™ã€‚
+å·¥äººåœ¨æ•´ä¸ªæ“ä½œè¿‡ç¨‹ä¸­éœ€è¦BaseDataProcessä»åŸæ–™ä¸­æå–ï¼Œç„¶åç»è¿‡
 deleteProcessor,insertProcessor,updateProcessor,selectProcessor
-ËÄµÀ¹¤Ğò¡£
-ÔÚÕâ¸ö¹ı³ÌÖĞ£¬¹¤ÈË»á¸ù¾İ×Ô¼ºµÄÊ¹ÓÃÏ°¹ßÑ¡Ôñ²»Í¬µÄ¹¤¾ß¡£µ±È»Èç¹ûÄã²»ÂúÒâ£¬¿ÉÒÔÈÃ
-Ëû»»¹¤¾ß¡£
+å››é“å·¥åºã€‚
+åœ¨è¿™ä¸ªè¿‡ç¨‹ä¸­ï¼Œå·¥äººä¼šæ ¹æ®è‡ªå·±çš„ä½¿ç”¨ä¹ æƒ¯é€‰æ‹©ä¸åŒçš„å·¥å…·ã€‚å½“ç„¶å¦‚æœä½ ä¸æ»¡æ„ï¼Œå¯ä»¥è®©
+ä»–æ¢å·¥å…·ã€‚
 
 
-ÏÂÒ»²½ÈÎÎñ£º
-1.Íê³ÉVO¡¢Controller¡¢ManagerµÄÄ¿Â¼ÅäÖÃ£¬Ö±½ÓÉú³É¸÷ÀàÎÄ¼ş¡£
+ä¸‹ä¸€æ­¥ä»»åŠ¡ï¼š
+1.å®ŒæˆVOã€Controllerã€Managerçš„ç›®å½•é…ç½®ï¼Œç›´æ¥ç”Ÿæˆå„ç±»æ–‡ä»¶ã€‚
 
 
     
