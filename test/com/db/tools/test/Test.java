@@ -2,7 +2,7 @@ package com.db.tools.test;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç11:28:47
+ @createTime 2012-9-7 ä¸‹åˆ11:28:47
  **/
 
 public class Test {
