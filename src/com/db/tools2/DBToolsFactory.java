@@ -82,7 +82,10 @@ public class DBToolsFactory {
 			throw new DBToolsBuilderException(tableName + " already exists");
 		}else{
 			synchronized (buildTaskMap) {
-				this.buildTaskMap.put(tableName, defaultBuilder);
+				this.buildTaskMap.put(tableName, builder);
+			}
+			if(defaultBuilder == null){
+				defaultBuilder = builder;
 			}
 		}
 	}
