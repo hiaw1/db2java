@@ -2,25 +2,25 @@ package com.db.tools2.vo;
 
  /**
  @Author H.W
- @createTime 2012-8-23 ÏÂÎç03:59:29
- @Company ÁªÍø»ãÍ¨ĞÅÏ¢¿Æ¼¼ÓĞÏŞ¹«Ë¾
- @Description ±í¸ñÃèÊöĞÅÏ¢
+ @createTime 2012-8-23 ä¸‹åˆ03:59:29
+ @Company è”ç½‘æ±‡é€šä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸
+ @Description è¡¨æ ¼æè¿°ä¿¡æ¯
  **/
 
 public class DBDescVO {
 
 	/**
-	 * ×Ö¶ÎÃû
+	 * å­—æ®µå
 	 */
 	private String columnName;
 	
 	/**
-	 * Êı¾İÀàĞÍ
+	 * æ•°æ®ç±»å‹
 	 */
 	private String dataType;
 	
 	/**
-	 * ±¸×¢
+	 * å¤‡æ³¨
 	 */
 	private String comments;
 

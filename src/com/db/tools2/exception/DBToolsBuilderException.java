@@ -2,7 +2,7 @@ package com.db.tools2.exception;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç12:31:49
+ @createTime 2012-9-7 ä¸‹åˆ12:31:49
  **/
 
 public class DBToolsBuilderException extends Exception{

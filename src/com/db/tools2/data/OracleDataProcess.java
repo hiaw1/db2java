@@ -8,7 +8,7 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç08:18:11
+ @createTime 2012-9-7 ä¸‹åˆ08:18:11
  **/
 
 public class OracleDataProcess extends BaseDataProcess{
@@ -17,11 +17,11 @@ public class OracleDataProcess extends BaseDataProcess{
 	
 	private OracleDataProcess(){
 		/**
-		 * ORACLE²éÑ¯Êı¾İ¿â½á¹¹µÄÓï¾ä
+		 * ORACLEæŸ¥è¯¢æ•°æ®åº“ç»“æ„çš„è¯­å¥
 		 */
-		structSQL = "select A.column_name ,A.data_type ,A.data_length ³¤¶È,A.data_precision ÕûÊıÎ»,"
-			+ " A.Data_Scale Ğ¡ÊıÎ»,A.nullable ÔÊĞí¿ÕÖµ,A.Data_default È±Ê¡Öµ,B.comments,"
-			+ " C.IndexCount Ë÷Òı´ÎÊı"
+		structSQL = "select A.column_name ,A.data_type ,A.data_length é•¿åº¦,A.data_precision æ•´æ•°ä½,"
+			+ " A.Data_Scale å°æ•°ä½,A.nullable å…è®¸ç©ºå€¼,A.Data_default ç¼ºçœå€¼,B.comments,"
+			+ " C.IndexCount ç´¢å¼•æ¬¡æ•°"
 			+ " from "
 			+ " user_tab_columns A,"
 			+ " user_col_comments B,"

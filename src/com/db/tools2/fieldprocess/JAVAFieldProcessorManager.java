@@ -8,9 +8,9 @@ import com.db.tools2.exception.JavaFieldException;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç10:39:35
- * Îª·½±ãÒÔºóµÄÀ©Õ¹£¬ÕâÀïÊ¹ÓÃÁËÒ»¸öfieldProcessorMapÓÃÀ´´æ´¢¹ØÏµ,<br/>
- * ºóÆÚÍ¨¹ı{@link #registerFieldProcessor()}·½·¨¾Í¿ÉÒÔÍê³É×Ô¶¨ÒåµÄJAVA×Ö¶Î´¦Àí
+ @createTime 2012-9-7 ä¸Šåˆ10:39:35
+ * ä¸ºæ–¹ä¾¿ä»¥åçš„æ‰©å±•ï¼Œè¿™é‡Œä½¿ç”¨äº†ä¸€ä¸ªfieldProcessorMapç”¨æ¥å­˜å‚¨å…³ç³»,<br/>
+ * åæœŸé€šè¿‡{@link #registerFieldProcessor()}æ–¹æ³•å°±å¯ä»¥å®Œæˆè‡ªå®šä¹‰çš„JAVAå­—æ®µå¤„ç†
  * 
  **/
 
@@ -31,8 +31,8 @@ public class JAVAFieldProcessorManager {
 	
 	/**
 	 * 
-	 * µÃµ½JAVA FIELDµÄ´¦ÀíÀà£¬Èç¹ûÃ»ÓĞÕÒµ½£¬·µ»Ø¡°Ô­ÉúFIELD¡±´¦Àí<br/>
-	 * @param javaFieldType ¿É²Î¼ûConstantsÀïµÄJAVA_FIELD_¿ªÍ·µÄ³£Á¿<br/>
+	 * å¾—åˆ°JAVA FIELDçš„å¤„ç†ç±»ï¼Œå¦‚æœæ²¡æœ‰æ‰¾åˆ°ï¼Œè¿”å›â€œåŸç”ŸFIELDâ€å¤„ç†<br/>
+	 * @param javaFieldType å¯å‚è§Constantsé‡Œçš„JAVA_FIELD_å¼€å¤´çš„å¸¸é‡<br/>
 	 * @return
 	 * @throws JavaFieldException 
 	 */
@@ -47,7 +47,7 @@ public class JAVAFieldProcessorManager {
 	
 	/**
 	 * 
-	 * ×¢²áÒ»¸öĞÂµÄJAVA×Ö¶Î´¦Àí£¬ÒÔºóÓĞĞÂµÄ´¦Àí·½Ê½£¬Ö±½Óµ÷ÓÃ¸Ã·½·¨£¬¼´¿É<br/>
+	 * æ³¨å†Œä¸€ä¸ªæ–°çš„JAVAå­—æ®µå¤„ç†ï¼Œä»¥åæœ‰æ–°çš„å¤„ç†æ–¹å¼ï¼Œç›´æ¥è°ƒç”¨è¯¥æ–¹æ³•ï¼Œå³å¯<br/>
 	 * @param name
 	 * @param fieldProcessor
 	 * @return

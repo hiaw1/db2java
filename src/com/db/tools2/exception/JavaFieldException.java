@@ -3,7 +3,7 @@ package com.db.tools2.exception;
 
  /**
  @Author H.W
- @createTime 2012-9-7 …œŒÁ11:42:15
+ @createTime 2012-9-7 ‰∏äÂçà11:42:15
  **/
 
 public class JavaFieldException extends Exception{

@@ -10,7 +10,7 @@ import com.db.tools2.exception.JavaFieldException;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç08:51:21
+ @createTime 2012-9-7 ä¸‹åˆ08:51:21
  **/
 
 public class DataProcessManager {
@@ -18,7 +18,7 @@ public class DataProcessManager {
 	private static DataProcessManager instance = new DataProcessManager();
 	
 	/**
-	 * Êı¾İ¿âÀàĞÍ¶ÔÓ¦µÄÊı¾İ´¦Àí
+	 * æ•°æ®åº“ç±»å‹å¯¹åº”çš„æ•°æ®å¤„ç†
 	 * <DB_TYPE, BaseDataProcess>
 	 */
 	private Map<String, BaseDataProcess> dataProcessMap = new HashMap<String, BaseDataProcess>();
@@ -34,8 +34,8 @@ public class DataProcessManager {
 	
 	/**
 	 * 
-	 * µÃµ½¶ÔÓ¦µÄdataÉú³ÉÆ÷<br/>
-	 * @param dbType DB_TYPE ¿É²Î¼ûConstantsÀïµÄDB_TYPE¿ªÍ·
+	 * å¾—åˆ°å¯¹åº”çš„dataç”Ÿæˆå™¨<br/>
+	 * @param dbType DB_TYPE å¯å‚è§Constantsé‡Œçš„DB_TYPEå¼€å¤´
 	 * @return
 	 * @throws DBSQLException 
 	 * @throws JavaFieldException
@@ -51,7 +51,7 @@ public class DataProcessManager {
 	
 	/**
 	 * 
-	 * ×¢²áÒ»¸öĞÂµÄdataÉú³ÉÆ÷£¬ÒÔºóÓĞĞÂµÄ´¦Àí·½Ê½£¬Ö±½Óµ÷ÓÃ¸Ã·½·¨£¬¼´¿É<br/>
+	 * æ³¨å†Œä¸€ä¸ªæ–°çš„dataç”Ÿæˆå™¨ï¼Œä»¥åæœ‰æ–°çš„å¤„ç†æ–¹å¼ï¼Œç›´æ¥è°ƒç”¨è¯¥æ–¹æ³•ï¼Œå³å¯<br/>
 	 * @param name
 	 * @param BaseDataProcess
 	 * @return

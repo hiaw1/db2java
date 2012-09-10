@@ -8,14 +8,14 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 œ¬ŒÁ01:13:09
+ @createTime 2012-9-7 ‰∏ãÂçà01:13:09
  **/
 
 public class OriginalSqlserverUpdateProcess implements ISQLProcess{
 
 	@Override
 	public String generationSQL(String tbName, List<DBDescVO> dbDescList, BaseFieldProcessor fieldProcessor) {
-		StringBuilder updateSQL = new StringBuilder();				//IBATIS UPDATE”Ôæ‰
+		StringBuilder updateSQL = new StringBuilder();				//IBATIS UPDATEËØ≠Âè•
 		StringBuilder updateQuerySQL = new StringBuilder();
 		updateSQL.append("UPDATE " + tbName);
 		updateSQL.append("\r\n\tSET");

@@ -19,9 +19,9 @@ import com.db.tools2.sql.insertprocess.sqlserver.OriginalSqlserverInsertProcess;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç11:16:47
- *¡¡INSERT PROCESSOR ¹ÜÀíÕß<br/>
- *  ¹ÜÀí·½Ê½Í¬{#link {@link JAVAFieldProcessorManager}<br/>
+ @createTime 2012-9-7 ä¸Šåˆ11:16:47
+ *ã€€INSERT PROCESSOR ç®¡ç†è€…<br/>
+ *  ç®¡ç†æ–¹å¼åŒ{#link {@link JAVAFieldProcessorManager}<br/>
  **/
 
 public class InsertProcessorManager {
@@ -49,8 +49,8 @@ public class InsertProcessorManager {
 	
 	/**
 	 * 
-	 * µÃµ½¶ÔÓ¦µÄInsertÉú³ÉÆ÷<br/>
-	 * @param dbType DB_TYPE+SQL_TYPE  ¿É²Î¼ûConstantsÀïµÄDB_TYPE¿ªÍ·ºÍSQL_TYPE_¿ªÍ·µÄ±äÁ¿
+	 * å¾—åˆ°å¯¹åº”çš„Insertç”Ÿæˆå™¨<br/>
+	 * @param dbType DB_TYPE+SQL_TYPE  å¯å‚è§Constantsé‡Œçš„DB_TYPEå¼€å¤´å’ŒSQL_TYPE_å¼€å¤´çš„å˜é‡
 	 * @return
 	 * @throws DBSQLException 
 	 */
@@ -64,7 +64,7 @@ public class InsertProcessorManager {
 	
 	/**
 	 * 
-	 * ×¢²áÒ»¸öĞÂµÄInsertÉú³ÉÆ÷£¬ÒÔºóÓĞĞÂµÄ´¦Àí·½Ê½£¬Ö±½Óµ÷ÓÃ¸Ã·½·¨£¬¼´¿É<br/>
+	 * æ³¨å†Œä¸€ä¸ªæ–°çš„Insertç”Ÿæˆå™¨ï¼Œä»¥åæœ‰æ–°çš„å¤„ç†æ–¹å¼ï¼Œç›´æ¥è°ƒç”¨è¯¥æ–¹æ³•ï¼Œå³å¯<br/>
 	 * @param name
 	 * @param insertProcessor
 	 * @return

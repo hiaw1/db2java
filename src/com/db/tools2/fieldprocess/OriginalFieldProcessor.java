@@ -3,8 +3,8 @@ package com.db.tools2.fieldprocess;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç10:35:39
- Ê¹ÓÃÔ­×Ö¶Î
+ @createTime 2012-9-7 ä¸Šåˆ10:35:39
+ ä½¿ç”¨åŸå­—æ®µ
  **/
 
 public class OriginalFieldProcessor extends BaseFieldProcessor{
