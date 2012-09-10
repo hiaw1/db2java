@@ -2,9 +2,9 @@ package com.db.tools2.vo;
 
  /**
  @Author H.W
- @createTime 2012-8-23 下午03:51:34
- @Company 联网汇通信息科技有限公司
- @Description 处理完成后的组装对象
+ @createTime 2012-8-23 涓嬪崍03:51:34
+ @Company 鑱旂綉姹囬�氫俊鎭鎶�鏈夐檺鍏徃
+ @Description 澶勭悊瀹屾垚鍚庣殑缁勮瀵硅薄
  **/
 
 public class ProcessResultVO implements java.io.Serializable{

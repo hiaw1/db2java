@@ -2,29 +2,29 @@ package com.db.tools2;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç11:29:26
+ @createTime 2012-9-7 ä¸Šåˆ11:29:26
  **/
 
 public class Constants {
 
 	/**
-	 * ORACLEÊı¾İ¿â
+	 * ORACLEæ•°æ®åº“
 	 */
 	public static String DB_TYPE_ORACLE = "ORACLE";
 	
 	/**
-	 * MYSQLÊı¾İ¿â
+	 * MYSQLæ•°æ®åº“
 	 */
 	public static String DB_TYPE_MYSQL = "MYSQL";
 	
 	/**
-	 * SQLServerÊı¾İ¿â
+	 * SQLServeræ•°æ®åº“
 	 */
 	public static String DB_TPYE_SQLSERVER = "SQLSERVER";
 	
 	
 	/**
-	 * Ô­ÉúSQL
+	 * åŸç”ŸSQL
 	 */
 	public static String SQL_TYPE_ORIGINAL = "ORIGINAL";
 	
@@ -39,22 +39,22 @@ public class Constants {
 	public static String SQL_TYPE_MYBATIS = "MYBATIS";
 	
 	/**
-	 * Ê¹ÓÃDBÖĞµÄ×Ö¶ÎÃû×÷ÎªJAVA FIELDÃû³Æ
+	 * ä½¿ç”¨DBä¸­çš„å­—æ®µåä½œä¸ºJAVA FIELDåç§°
 	 */
 	public static String JAVA_FIELD_ORIGINAL = "FIELDORIGINAL";
 	
 	/**
-	 * ÒÔÏÂ»®Ïß·Ö¸ôÉú³É¶ÔÓ¦µÄJAVA FILEDÃû³Æ£¨ÒÔÏÂ»®Ïß·Ö¸ô£©
+	 * ä»¥ä¸‹åˆ’çº¿åˆ†éš”ç”Ÿæˆå¯¹åº”çš„JAVA FILEDåç§°ï¼ˆä»¥ä¸‹åˆ’çº¿åˆ†éš”ï¼‰
 	 */
 	public static String JAVA_FIELD_CAMEL_HUMP = "CAMELHUMP";
 	
 	/**
-	 * ORACLEµÄclass12Á¬½Ó×Ö·ûDRIVER
+	 * ORACLEçš„class12è¿æ¥å­—ç¬¦DRIVER
 	 */
 	public static String DRIVER_ORACLE_CLASS12 = "oracle.jdbc.OracleDriver";
 	
 	/**
-	 * MYSQLµÄmysql-connectorÁ¬½ÓDRIVER
+	 * MYSQLçš„mysql-connectorè¿æ¥DRIVER
 	 */
 	public static String DRIVER_MYSQL_CONNECTOR = "com.mysql.jdbc.Driver";
 }

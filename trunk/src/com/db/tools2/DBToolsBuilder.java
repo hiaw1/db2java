@@ -18,7 +18,7 @@ import com.db.tools2.vo.ProcessResultVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç12:26:44
+ @createTime 2012-9-7 ä¸‹åˆ12:26:44
  **/
 
 public class DBToolsBuilder {
@@ -36,7 +36,7 @@ public class DBToolsBuilder {
 	private BaseDataProcess baseDataProcess;
 	
 	/**
-	 * ¸ù¾İHelperÉú³ÉBuilder
+	 * æ ¹æ®Helperç”ŸæˆBuilder
 	 * @param helper
 	 * @throws JavaFieldException
 	 * @throws DBSQLException
@@ -53,7 +53,7 @@ public class DBToolsBuilder {
 	
 	/**
 	 * 
-	 * ½øĞĞbuilding£¬Éú³É¶ÔÓ¦µÄ½á¹û¼¯
+	 * è¿›è¡Œbuildingï¼Œç”Ÿæˆå¯¹åº”çš„ç»“æœé›†
 	 * @param  tableName
 	 * @return ProcessResultVO
 	 */

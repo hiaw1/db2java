@@ -8,15 +8,15 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç01:13:09
+ @createTime 2012-9-7 ä¸‹åˆ01:13:09
  **/
 
 public class IBatisSqlserverUpdateProcess implements ISQLProcess{
 
 	@Override
 	public String generationSQL(String tbName, List<DBDescVO> dbDescList, BaseFieldProcessor fieldProcessor) {
-		StringBuilder updateSQL = new StringBuilder();				//IBATIS UPDATEÓï¾ä
-		StringBuilder searchQuery = new StringBuilder();			//WHEREºóÃæµÄ×Ó¾ä
+		StringBuilder updateSQL = new StringBuilder();				//IBATIS UPDATEè¯­å¥
+		StringBuilder searchQuery = new StringBuilder();			//WHEREåé¢çš„å­å¥
 		
 		updateSQL.append("UPDATE " + tbName);
 		updateSQL.append("\r\n\t<dynamic prepend=\"SET\">");

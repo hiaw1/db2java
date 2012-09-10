@@ -7,20 +7,20 @@ import com.db.tools2.utils.LoggerUtils;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç09:31:16
+ @createTime 2012-9-7 ä¸‹åˆ09:31:16
  **/
 
 public class ColumnType2JAVATypeUtils {
 
 	/**
-	 * DBÖĞµÄÀàĞÍÓëJAVAÀàĞÍµÄ¶ÔÓ¦¹ØÏµ
+	 * DBä¸­çš„ç±»å‹ä¸JAVAç±»å‹çš„å¯¹åº”å…³ç³»
 	 */
 	private static Map<String, String> correspondingMap = new HashMap<String, String>();
 	
 	
 	/**
 	 * 
-	 * ¸ù¾İDBÀïµÄ×Ö¶ÎÀàĞÍµÃµ½JAVAÀàĞÍ
+	 * æ ¹æ®DBé‡Œçš„å­—æ®µç±»å‹å¾—åˆ°JAVAç±»å‹
 	 * @param columnType
 	 * @return
 	 */
@@ -47,7 +47,7 @@ public class ColumnType2JAVATypeUtils {
 	
 	/**
 	 * 
-	 * ×¢²áĞÂµÄÀàĞÍ
+	 * æ³¨å†Œæ–°çš„ç±»å‹
 	 * @param dbFieldType
 	 * @param javaFieldType
 	 * @return

@@ -4,16 +4,16 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç10:33:01
- Õâ¸ö½Ó¿ÚÖ÷ÒªÊÇÎªÁËÒÔºó¿ÉÒÔ½øĞĞ¶àÖÖ²»Í¬µÄÊµÏÖ
- ±ÈÈçËµÊ¹ÓÃÊı¾İ¿âÔ­×Ö¶Î£¬ÒÔÏÂ»®ÏßÎª·Ö¸ôµÄÍÕ·åµÈ
+ @createTime 2012-9-7 ä¸Šåˆ10:33:01
+ è¿™ä¸ªæ¥å£ä¸»è¦æ˜¯ä¸ºäº†ä»¥åå¯ä»¥è¿›è¡Œå¤šç§ä¸åŒçš„å®ç°
+ æ¯”å¦‚è¯´ä½¿ç”¨æ•°æ®åº“åŸå­—æ®µï¼Œä»¥ä¸‹åˆ’çº¿ä¸ºåˆ†éš”çš„é©¼å³°ç­‰
  **/
 
 public abstract class BaseFieldProcessor {
 	
 	/**
 	 * 
-	 * ¸ù¾İDBÀïµÄ×Ö¶ÎÃûÊä³ö¶ÔÓ¦µÄJAVA×Ö¶Î¶¨Òå
+	 * æ ¹æ®DBé‡Œçš„å­—æ®µåè¾“å‡ºå¯¹åº”çš„JAVAå­—æ®µå®šä¹‰
 	 * @param columnName
 	 * @return
 	 */
@@ -21,7 +21,7 @@ public abstract class BaseFieldProcessor {
 	
 	/**
 	 * 
-	 * ¸ù¾İDBÀïµÄ×Ö¶ÎÃûÍê³ÉµÃµ½JAVA×Ö¶ÎµÄGETºÍSET·½·¨ 
+	 * æ ¹æ®DBé‡Œçš„å­—æ®µåå®Œæˆå¾—åˆ°JAVAå­—æ®µçš„GETå’ŒSETæ–¹æ³• 
 	 * @param dbDescVO
 	 * @return
 	 */
@@ -43,7 +43,7 @@ public abstract class BaseFieldProcessor {
 	
 	/**
 	 * 
-	 * µÃµ½JAVAÔ´ÂëÖĞµÄ×Ö¶Î¶¨Òå
+	 * å¾—åˆ°JAVAæºç ä¸­çš„å­—æ®µå®šä¹‰
 	 * @param dbDescVO
 	 * @return
 	 */
@@ -61,7 +61,7 @@ public abstract class BaseFieldProcessor {
 	
 	/**
 	 * 
-	 * ¸ù¾İDBÀïµÄ×Ö¶ÎÃûÍê³ÉµÃµ½JAVA×Ö¶ÎµÄGETºÍSET·½·¨ 
+	 * æ ¹æ®DBé‡Œçš„å­—æ®µåå®Œæˆå¾—åˆ°JAVAå­—æ®µçš„GETå’ŒSETæ–¹æ³• 
 	 * @param dbDescVO
 	 * @return
 	 */

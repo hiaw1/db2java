@@ -3,24 +3,24 @@ package com.db.tools2;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÉÏÎç10:53:50
- * ÕâÊÇÒ»¸ö¸¨ÖúÀà£¬Ò²ÊÇÅäÖÃÀà£¬¶¨ÒåÁËÔÚÕû¸öÉú³É¹ı³ÌÖĞĞèÒªµÄÒ»ÇĞ²ÎÊı<br/>
+ @createTime 2012-9-7 ä¸Šåˆ10:53:50
+ * è¿™æ˜¯ä¸€ä¸ªè¾…åŠ©ç±»ï¼Œä¹Ÿæ˜¯é…ç½®ç±»ï¼Œå®šä¹‰äº†åœ¨æ•´ä¸ªç”Ÿæˆè¿‡ç¨‹ä¸­éœ€è¦çš„ä¸€åˆ‡å‚æ•°<br/>
  **/
 
 public class ToolsHelper {
 
 	/**
-	 * Êı¾İ¿âÀàĞÍ£¬Ä¬ÈÏORACLE
+	 * æ•°æ®åº“ç±»å‹ï¼Œé»˜è®¤ORACLE
 	 */
 	private String dbType = Constants.DB_TYPE_ORACLE;
 	
 	/**
-	 * SQLÀàĞÍ£¬Ä¬ÈÏÔ­Éú
+	 * SQLç±»å‹ï¼Œé»˜è®¤åŸç”Ÿ
 	 */
 	private String sqlType = Constants.SQL_TYPE_ORIGINAL;
 	
 	/**
-	 * javaFieldµÄÉú³É¹æ»®£¬Ä¬ÈÏÊ¹ÓÃDB×Ö¶ÎÃû
+	 * javaFieldçš„ç”Ÿæˆè§„åˆ’ï¼Œé»˜è®¤ä½¿ç”¨DBå­—æ®µå
 	 */
 	private String javaFieldregulations = Constants.JAVA_FIELD_ORIGINAL;
 	
@@ -36,10 +36,10 @@ public class ToolsHelper {
 	
 	/**
 	 * 
-	 * @param driver 		Á¬½ÓÊ¹ÓÃµÄdriverClass,²Î¼û{@link Constants.DRIVER_ORACLE_CLASS12}ºÍ{@link Constants.DRIVER_MYSQL_CONNECTOR}
-	 * @param dbURL  		Á¬½ÓURL
-	 * @param dbUsername	Á¬½ÓÊ¹ÓÃµÄÓÃ»§Ãû
-	 * @param dbPwd			Á¬½ÓÊ¹ÓÃµÄÃÜÂë
+	 * @param driver 		è¿æ¥ä½¿ç”¨çš„driverClass,å‚è§{@link Constants.DRIVER_ORACLE_CLASS12}å’Œ{@link Constants.DRIVER_MYSQL_CONNECTOR}
+	 * @param dbURL  		è¿æ¥URL
+	 * @param dbUsername	è¿æ¥ä½¿ç”¨çš„ç”¨æˆ·å
+	 * @param dbPwd			è¿æ¥ä½¿ç”¨çš„å¯†ç 
 	 */
 	public ToolsHelper(String driver, String dbURL, String dbUsername, String dbPwd) {
 		super();
@@ -51,13 +51,13 @@ public class ToolsHelper {
 
 	/**
 	 * 
-	 * @param dbType					Êı¾İ¿âÀàĞÍ ²Î¼û{@link Constants}ÖĞÒÔDB_TYPE¿ªÍ·µÄ³£Á¿
-	 * @param sqlType					Éú³ÉSQLÀàĞÍ ²Î¼û{@link Constants}ÖĞÒÔSQL_TYPE¿ªÍ·µÄ³£Á¿
-	 * @param javaFieldregulations		JAVA FieldÉú³É¹æÔò,²Î¼û{@link Constants}ÖĞÒÔJAVA_FIELD¿ªÍ·µÄ³£Á¿
-	*  @param driver 					Á¬½ÓÊ¹ÓÃµÄdriverClass,²Î¼û{@link Constants.DRIVER_ORACLE_CLASS12}ºÍ{@link Constants.DRIVER_MYSQL_CONNECTOR}
-	 * @param dbURL  					Á¬½ÓURL
-	 * @param dbUsername				Á¬½ÓÊ¹ÓÃµÄÓÃ»§Ãû
-	 * @param dbPwd						Á¬½ÓÊ¹ÓÃµÄÃÜÂë
+	 * @param dbType					æ•°æ®åº“ç±»å‹ å‚è§{@link Constants}ä¸­ä»¥DB_TYPEå¼€å¤´çš„å¸¸é‡
+	 * @param sqlType					ç”ŸæˆSQLç±»å‹ å‚è§{@link Constants}ä¸­ä»¥SQL_TYPEå¼€å¤´çš„å¸¸é‡
+	 * @param javaFieldregulations		JAVA Fieldç”Ÿæˆè§„åˆ™,å‚è§{@link Constants}ä¸­ä»¥JAVA_FIELDå¼€å¤´çš„å¸¸é‡
+	*  @param driver 					è¿æ¥ä½¿ç”¨çš„driverClass,å‚è§{@link Constants.DRIVER_ORACLE_CLASS12}å’Œ{@link Constants.DRIVER_MYSQL_CONNECTOR}
+	 * @param dbURL  					è¿æ¥URL
+	 * @param dbUsername				è¿æ¥ä½¿ç”¨çš„ç”¨æˆ·å
+	 * @param dbPwd						è¿æ¥ä½¿ç”¨çš„å¯†ç 
 	 */
 	public ToolsHelper(String dbType, String sqlType,
 			String javaFieldregulations, String driver, 

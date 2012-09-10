@@ -7,14 +7,14 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 下午01:15:17
+ @createTime 2012-9-7 涓嬪崍01:15:17
  **/
 
 public interface ISQLProcess {
 
 	/**
 	 * 
-	 * 生成对应的SQL
+	 * 鐢熸垚瀵瑰簲鐨凷QL
 	 * @param tbName
 	 * @param dbDescList
 	 * @param fieldProcessor

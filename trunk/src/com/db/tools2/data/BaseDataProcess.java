@@ -14,7 +14,7 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 下午08:12:59
+ @createTime 2012-9-7 涓嬪崍08:12:59
  **/
 
 public abstract class BaseDataProcess {
@@ -51,8 +51,8 @@ public abstract class BaseDataProcess {
 
 	/**
 	 * 
-	 * 得到表对应的字段描述文件
-	 * @param tableName 目标表名
+	 * 寰楀埌琛ㄥ搴旂殑瀛楁鎻忚堪鏂囦欢
+	 * @param tableName 鐩爣琛ㄥ悕
 	 * @return
 	 */
 	@SuppressWarnings("finally")
@@ -90,7 +90,7 @@ public abstract class BaseDataProcess {
 	
 	/**
 	 * 
-	 * 根据结果集获得对应的DBDescVO
+	 * 鏍规嵁缁撴灉闆嗚幏寰楀搴旂殑DBDescVO
 	 * @param rs
 	 * @return
 	 */

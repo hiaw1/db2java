@@ -7,7 +7,7 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç08:48:04
+ @createTime 2012-9-7 ä¸‹åˆ08:48:04
  **/
 
 public class MysqlDataProcess extends BaseDataProcess{

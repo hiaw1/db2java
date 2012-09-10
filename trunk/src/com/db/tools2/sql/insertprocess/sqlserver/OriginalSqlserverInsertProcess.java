@@ -8,16 +8,16 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 下午01:13:09
+ @createTime 2012-9-7 涓嬪崍01:13:09
  **/
 
 public class OriginalSqlserverInsertProcess implements ISQLProcess{
 
 	@Override
 	public String generationSQL(String tbName, List<DBDescVO> dbDescList, BaseFieldProcessor fieldProcessor) {
-		StringBuilder insertSQL = new StringBuilder();	//IBATIS INSERT语句
-		StringBuilder insertSQLKey = new StringBuilder(); //INSERT时需要插入的KEY子句
-		StringBuilder insertSQLValue = new StringBuilder();//INSERT时需要的VALUE子句
+		StringBuilder insertSQL = new StringBuilder();	//IBATIS INSERT璇彞
+		StringBuilder insertSQLKey = new StringBuilder(); //INSERT鏃堕渶瑕佹彃鍏ョ殑KEY瀛愬彞
+		StringBuilder insertSQLValue = new StringBuilder();//INSERT鏃堕渶瑕佺殑VALUE瀛愬彞
 		insertSQL.append("INSERT INTO " + tbName + "(");
 		for(DBDescVO dbDescVO:dbDescList){
 			insertSQLKey.append(dbDescVO.getColumnName() + ",");

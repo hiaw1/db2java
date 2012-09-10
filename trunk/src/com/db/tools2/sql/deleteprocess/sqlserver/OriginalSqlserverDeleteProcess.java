@@ -8,7 +8,7 @@ import com.db.tools2.vo.DBDescVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç01:13:09
+ @createTime 2012-9-7 ä¸‹åˆ01:13:09
  **/
 
 public class OriginalSqlserverDeleteProcess implements ISQLProcess{

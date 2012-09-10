@@ -13,14 +13,14 @@ import com.db.tools2.vo.ProcessResultVO;
 
  /**
  @Author H.W
- @createTime 2012-9-7 ÏÂÎç12:18:21
+ @createTime 2012-9-7 ä¸‹åˆ12:18:21
  **/
 
 public class DBToolsFactory {
 	private static DBToolsFactory instance = new DBToolsFactory();
 	
 	/**
-	 * ÈÎÎñMap
+	 * ä»»åŠ¡Map
 	 * <tableName, DBToolsBuilder>
 	 */
 	private Map<String, DBToolsBuilder> buildTaskMap = new HashMap<String, DBToolsBuilder>(); 
@@ -45,9 +45,9 @@ public class DBToolsFactory {
 	
 	/**
 	 * 
-	 * ÓÃÄ¬ÈÏµÄDBToolsBuilderÌí¼ÓÈÎÎñ
+	 * ç”¨é»˜è®¤çš„DBToolsBuilderæ·»åŠ ä»»åŠ¡
 	 * @param tableName
-	 * @throws DBToolsBuilderException Èç¹ûÃ»ÓĞÉèÖÃÄ¬ÈÏµÄDBToolsBuilder
+	 * @throws DBToolsBuilderException å¦‚æœæ²¡æœ‰è®¾ç½®é»˜è®¤çš„DBToolsBuilder
 	 */
 	public void addBuildTask(String tableName) throws DBToolsBuilderException{
 		if(defaultBuilder != null){
@@ -59,7 +59,7 @@ public class DBToolsFactory {
 	
 	/**
 	 * 
-	 * ¸ù¾İhelperºÍ±íÃûÌí¼ÓÈÎÎñ
+	 * æ ¹æ®helperå’Œè¡¨åæ·»åŠ ä»»åŠ¡
 	 * @param tableName
 	 * @param helper
 	 * @throws DBToolsBuilderException
@@ -72,10 +72,10 @@ public class DBToolsFactory {
 	
 	/**
 	 * 
-	 * Ìí¼ÓÈÎÎñ
+	 * æ·»åŠ ä»»åŠ¡
 	 * @param tableName
 	 * @param builder
-	 * @throws DBToolsBuilderException Èç¹ûÓĞÏàÍ¬µÄ±íÃû
+	 * @throws DBToolsBuilderException å¦‚æœæœ‰ç›¸åŒçš„è¡¨å
 	 */
 	public void addBuildTask(String tableName, DBToolsBuilder builder) throws DBToolsBuilderException{
 		if(buildTaskMap.get(tableName) != null){
@@ -89,7 +89,7 @@ public class DBToolsFactory {
 	
 	/**
 	 * 
-	 * ¿ªÊ¼´¦ÀíËùÓĞµÄÈÎÎñ
+	 * å¼€å§‹å¤„ç†æ‰€æœ‰çš„ä»»åŠ¡
 	 */
 	public List<ProcessResultVO> buildTaskToProcessResultList(){
 		List<ProcessResultVO> processResultList = new ArrayList<ProcessResultVO>();
